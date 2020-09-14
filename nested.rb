@@ -17,7 +17,6 @@ def hopper
     programmer_hash[:grace_hopper]
 end
 
-
 def alan_kay_is_known_for
   programmer_hash = 
  		{
@@ -50,7 +49,7 @@ def dennis_ritchies_language
       },
       :dennis_ritchie => {
         :known_for => "Unix",
-        :languages => ["C"]
+        :languages => "C"
       }
     }
   programmer_hash[:dennis_ritchie][:languages]
